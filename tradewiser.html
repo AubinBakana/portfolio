@@ -76,7 +76,7 @@
                 <main>
                     <section>
                         <div class="container">
-                            <h1 class="text-start mt-5">TradeWiser, CS50 final project.</h1>
+                            <h1 class="text-start mt-5">TradeWiser, Harvard's CS50 final project.</h1>
                         </div>
                         <div class="row">
                             <div class="col-md-1">
@@ -85,11 +85,11 @@
                             <div class="col col-md-4">
                                 <!-- Table Of Content -->
                                 <div class="container row border-start mt-1 mb-3">
-                                    <p class="highlight h5 mt-5">Table Of Content</p> <br>
+                                    <p class="highlight h5 mt-5">Table Of Content: On this page</p> <br>
                                     <a class="highlight" href="#summary" style="text-decoration: none; color: black;">- Summary</a> <br>
-                                    <a class="highlight" href="#signup" style="text-decoration: none; color: black;">- Registering A User </a> <br>
-                                    <a class="highlight" href="#walkthrough" style="text-decoration: none; color: black;">- A Walkthough the App</a> <br>
-                                    <a class="highlight" href="#srcCode" style="text-decoration: none; color: black;">- Source Code</a> <br>
+                                    <a class="highlight" href="#signup" style="text-decoration: none; color: black;">- App Demo: Registering Users</a> <br>
+                                    <a class="highlight" href="#walkthrough" style="text-decoration: none; color: black;">- App Demo: Usage</a> <br>
+                                    <a class="highlight" href="https://github.com/AubinBakana" style="text-decoration: none; color: black;" target="_blank">- Source Code</a> <br>
                                     <a class="highlight" href="#contact" style="text-decoration: none; color: black;">- Contact Us</a> <br>
                                 </div>
                             </div>
@@ -99,53 +99,78 @@
                         <div class="container text-start text-black mt-1 p-md-1" >
                             <p class="mb-3">
                                 <h1 class="h2" id="summary">Summary</h1>
-                                Tradewiser is an app that helps to manage account holder's trading and financial assets. The application uses both livestock & currency data from Yahoo Finance and ExchangeRate-API sites respectively, 
-                                to help user with trading and banking. Ultimately, the app enables user to deposit and withdraw funds, to buy and sell stock, and to analyse these assets.
+                                Tradewiser is an app conceived to help manage account holder's trading and financial assets. The application uses both livestock & currency data from Yahoo Finance and ExchangeRate-API sites respectively, 
+                                to help users with trading and banking. Ultimately, the app enables user to deposit and withdraw funds, to buy and sell stock, and to analyse and report on these assets.
                             </p>
+                            <p>
+                                The app is till in development and additional features will be added in due time.. 
+                            </p>          
                             <p class="small">
-                                The idea for this project was inspired by the Finance application in week 9, which I found to be lacking many features, an interest in stock trading, 
-                                and a lingering desire to create a banking application. As you can imagine, this being my first full-on application, I have kept on having more and more idea, and therefore kept adding features. 
-                                And thus, there are still many features that I intend to add, such a schedule reporting, and logging, or transaction COMMIT/ROLL BACK, etc. Due to personal deadlines, I have resolved that these 
-                                additional features will be added later. 
-                            </p>            
+                                The idea for this project was inspired in part by the Finance application, an assignment in week 9 of Harvard's CS50, which I found to be lacking many features; it was also motivated by an interest in stock trading, 
+                                and a lingering desire to create a banking application. As you can imagine, I have kept on having more and more ideas, and therefore kept adding more and more features as I progress. 
+                                And thus, there are still many features that I intend to add, such a schedule reporting, logging, or transaction COMMIT/ROLL BACK, etc. Due to personal deadlines, I have resolved that these changes can wait.
+                            </p>  
                         </div>
                     </section>     
                     <!-- Registration -->
-                    <section>
-                        <div class="container text-start text-black mt-1 p-md-1" >
-                            <p class="mb-3">
-                                <h1 class="h2" id="signup">Registering Users</h1>
-                                <div class="lead mb-3">
-                                    A demonstration: User's registration. <br>
+                    <section class="p-5">
+                        <div class="container">
+                            <div class="row align-items-start justify-content-between">
+                                <div class="col-md">
+                                    <h1 class="h2" id="signup">TradeWiser Demo: Part 1</h1>
+                                    <h1 class="h3">Registering Users.</h1>
+                                    <div class="lead mb-3">
+                                         A demonstration. User's registration. <br>
+                                    </div>   
+                                    <p>
+                                        TradeWiser is an application I developed as final project at Harvard University <br>
+                                    </p>                                 
+                                    <p class="small">
+                                        Please note: I am aware that at 3.36 the video failed to show the combo box. This appears to be my recording software limitation; I am using GamePlay to record the session.  
+                                    </p>
                                 </div>
-                                <iframe 
-                                width="560" 
-                                height="315" 
-                                src="https://www.youtube.com/embed/b0myHRS5bHQ?si=4aCBTG_IjhMoRIuC" 
-                                title="YouTube video player" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                allowfullscreen></iframe>
-                            </p> 
-                        </div>                        
+                                <div id="tradewisepartone" class="col-md mt-3">
+                                    <iframe 
+                                        width="560" 
+                                        height="315" 
+                                        src="https://www.youtube.com/embed/b0myHRS5bHQ?si=4aCBTG_IjhMoRIuC" 
+                                        title="YouTube video player" 
+                                        frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
                     </section>
-                    <!-- Using the app -->
-                    <section>
-                        <div class="container text-start text-black mt-1 p-md-1" >
-                            <p class="mb-3">
-                                <h1 class="h2" id="walkthrough">Using the App</h1>
-                                <div class="lead mb-3">
-                                    A demonstration: Trading and banking. <br>
+                    <section class="p-5">
+                        <div class="container">
+                            <div class="row align-items-start justify-content-between">
+                                <div class="col-md">
+                                    <h1 class="h2" id="walkthrough">TradeWiser Demo: Part 2</h1>
+                                    <h1 class="h3">App Usage.</h1>
+                                    <div class="lead mb-3">
+                                        A demonstration: Trading and banking. <br>
+                                    </div>   
+                                    <p>
+                                        TradeWiser is an application I developed as final project at Harvard University <br>
+                                    </p>                                 
+                                    <a href="https://github.com/AubinBakana" class="btn btn-light mt-3" target="_blank">
+                                        <i class="bi bi-chevron-right"></i>Source Code...
+                                    </a>
                                 </div>
-                                <iframe 
-                                width="560" 
-                                height="315" src="https://www.youtube.com/embed/260JaklDw-M?si=xmRMH3G0PyPhvX48" 
-                                title="YouTube video player" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                allowfullscreen></iframe>
-                            </p> 
-                        </div>                        
+                                <div id="tradewisepartone" class="col-md mt-3">
+                                    <iframe 
+                                        width="560" 
+                                        height="315" src="https://www.youtube.com/embed/260JaklDw-M?si=xmRMH3G0PyPhvX48" 
+                                        title="YouTube video player" 
+                                        frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
                     </section>
                     <!-- Contact -->
                     <section class="p-5 mt-5">
@@ -170,13 +195,11 @@
                                             <span class="fw-bold">Email</span>
                                             aubinbakana@hotmail.com
                                         </li>
-                                    </ul>
-        
+                                    </ul>        
                                 </div> <!-- end col-->
                             </div>
                         </div>
-                    </section>
-        
+                    </section>        
                 </main>
                 <footer class="p-3 bg-primary footer text-center text-white">
                     <div class="container small">
