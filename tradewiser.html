@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <div id="page-container">
+        <div id="content-wrap">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Aubin Bakana - Porfolio: Neo4J</title>
+                <!-- Bootstrap -->
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+                <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+                <!-- Static Files -->
+                <link href="styles.css" rel="stylesheet">
+                <script src="script.js"></script>
+            </head>
+            <body>
+                <header>
+                    <!-- Navigation Bar -->
+                    <nav class="fixed-top navbar navbar-expand-md navbar-light border shadow-sm bg-white py-md-1 py-1">
+                        <div class="container">
+                            <a class="navbar-brand" href="/">
+                                <span class="fw-bold text-secondary">
+                                    <img src="C:\Users\aubin\OneDrive\Training Material\Harvard University - CS50\My_Portfolio\homepage\images/logo.png" width="200" alt="AubinBakana Logo">
+                                </span>
+                            </a>       
+                            <!-- Navbar toggle button for mobile-->                             
+                            <button class="navbar-toggler" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#navbarmenu" 
+                            aria-controls="main-nav" 
+                            aria-expanded="false" 
+                            aria-label="Toggle navigation">
+        
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <!-- Navigation items - Menu -->
+                            <div 
+                                class="collapse navbar-collapse bg-white align-center justify-content-end text-center" 
+                                id="navbarmenu" >
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="tradewiser.html" class="nav-link">TradeWiser</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="harvard-uni.html" class="nav-link">Harvard University</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="azure-sa.html" class="nav-link">Azure</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="neo4j-dvlpr.html" class="nav-link">Neo4J</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="mongodb-asct.html" class="nav-link">MongoDB</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="dataiku-mlp.html" class="nav-link">Dataiku</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Projects</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Resume</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+                <main>
+                    <section>
+                        <div class="container">
+                            <h1 class="text-start mt-5">TradeWiser, CS50 final project.</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">
+                                
+                            </div>
+                            <div class="col col-md-4">
+                                <!-- Table Of Content -->
+                                <div class="container row border-start mt-1 mb-3">
+                                    <p class="highlight h5 mt-5">Table Of Content</p> <br>
+                                    <a class="highlight" href="#summary" style="text-decoration: none; color: black;">- Summary</a> <br>
+                                    <a class="highlight" href="#signup" style="text-decoration: none; color: black;">- Registering A User </a> <br>
+                                    <a class="highlight" href="#walkthrough" style="text-decoration: none; color: black;">- A Walkthough the App</a> <br>
+                                    <a class="highlight" href="#srcCode" style="text-decoration: none; color: black;">- Source Code</a> <br>
+                                    <a class="highlight" href="#contact" style="text-decoration: none; color: black;">- Contact Us</a> <br>
+                                </div>
+                            </div>
+                        </div>                        
+                    </section>
+                    <section>
+                        <div class="container text-start text-black mt-1 p-md-1" >
+                            <p class="mb-3">
+                                <h1 class="h2" id="summary">Summary</h1>
+                                Tradewiser is an app that helps to manage account holder's trading and financial assets. The application uses both livestock & currency data from Yahoo Finance and ExchangeRate-API sites respectively, 
+                                to help user with trading and banking. Ultimately, the app enables user to deposit and withdraw funds, to buy and sell stock, and to analyse these assets.
+                            </p>
+                            <p class="small">
+                                The idea for this project was inspired by the Finance application in week 9, which I found to be lacking many features, an interest in stock trading, 
+                                and a lingering desire to create a banking application. As you can imagine, this being my first full-on application, I have kept on having more and more idea, and therefore kept adding features. 
+                                And thus, there are still many features that I intend to add, such a schedule reporting, and logging, or transaction COMMIT/ROLL BACK, etc. Due to personal deadlines, I have resolved that these 
+                                additional features will be added later. 
+                            </p>            
+                        </div>
+                    </section>     
+                    <!-- Registration -->
+                    <section>
+                        <div class="container text-start text-black mt-1 p-md-1" >
+                            <p class="mb-3">
+                                <h1 class="h2" id="signup">Registering Users</h1>
+                                <div class="lead mb-3">
+                                    A demonstration: User's registration. <br>
+                                </div>
+                                <iframe 
+                                width="560" 
+                                height="315" 
+                                src="https://www.youtube.com/embed/b0myHRS5bHQ?si=4aCBTG_IjhMoRIuC" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen></iframe>
+                            </p> 
+                        </div>                        
+                    </section>
+                    <!-- Using the app -->
+                    <section>
+                        <div class="container text-start text-black mt-1 p-md-1" >
+                            <p class="mb-3">
+                                <h1 class="h2" id="walkthrough">Using the App</h1>
+                                <div class="lead mb-3">
+                                    A demonstration: Trading and banking. <br>
+                                </div>
+                                <iframe 
+                                width="560" 
+                                height="315" src="https://www.youtube.com/embed/260JaklDw-M?si=xmRMH3G0PyPhvX48" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen></iframe>
+                            </p> 
+                        </div>                        
+                    </section>
+                    <!-- Contact -->
+                    <section class="p-5 mt-5">
+                        <div class="container">
+                            <div class="row g-4">
+                                <div class="col-md">
+                                    <img class="img-fluid" width="400" src="img/pexels-fauxels-3184325.jpg" alt="">
+                                </div> <!-- end col-->
+                                <div class="col-md">
+                                    <h2 class="h2 mb-4 ps-3" id="contact">Contact</h2>
+                                    <ul class="list-group list-group-flush lead">
+                                        <li class="list-group-item">
+                                            <span class="fw-bold">Address:</span>
+                                            Flat 2 20A John Street. BD1 3JU
+                                        </li>
+                                        <li class="list-group-item">
+                                            <span class="fw-bold">Tel</span> <br>
+                                            (m): (+44) 7713 60 59 59 <br>
+                                            (m): (+44) 7526 38 999 2 
+                                        </li>
+                                        <li class="list-group-item">
+                                            <span class="fw-bold">Email</span>
+                                            aubinbakana@hotmail.com
+                                        </li>
+                                    </ul>
+        
+                                </div> <!-- end col-->
+                            </div>
+                        </div>
+                    </section>
+        
+                </main>
+                <footer class="p-3 bg-primary footer text-center text-white">
+                    <div class="container small">
+                        Copyright &copy; 2023 Aubin Bakana
+                        <a href="#">
+                            <i class="bi bi-linkedin text-dark mx-1"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-instagram text-dark mx-1"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-twitter text-dark mx-1"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-facebook text-dark mx-1"></i>
+                        </a>
+                    </div>
+                    <a href="" class="position-absolute bottom-0 end-0 p-5">
+                        <!-- <span  class="small bg-white p-2">Jump Back To Top</span> -->
+                        <b class="bi bg-primary text-white bi-arrow-up-circle h1"></b>
+                    </a>                  
+                </footer>
+            </body>
+        </div>
+    </div>
+</html>
+
+
+
+
+
+
+

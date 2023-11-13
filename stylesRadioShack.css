@@ -1,0 +1,48 @@
+a.highlight:hover {
+    background-color: rgb(242, 242, 242);
+  }
+
+body::before {
+    display: block;
+    content: '';
+    height: 24px
+}
+
+html {
+    scroll-padding-top: 4rem;
+  }
+  nav {
+    height: 3rem;
+    position: sticky;
+    top: 0;
+  }
+
+li:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+section:hover {
+    background-color: rgb(253, 253, 253);
+}
+
+@media screen and (max-width: 600px) {
+  /* narrow screens only (like mobile) */
+  /* position: absolute; */
+  text-align: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+@media screen and (min-width: 768px) {
+  /* Wide screens (like maximized desktop) */
+  position: absolute;
+  text-align: center;
+  justify-items: center;
+}
+
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}

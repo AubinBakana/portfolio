@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <div id="page-container">
+        <div id="content-wrap">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Aubin Bakana - Porfolio</title>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+                <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+        
+                <link href="styles.css" rel="stylesheet">
+                <script src="script.js"></script>
+            </head>
+            <body>
+                <header>
+                    <!-- Navigation Bar -->
+                    <nav class="fixed-top navbar navbar-expand-md navbar-light border shadow-sm bg-white py-md-1 py-1">
+                        <div class="container">
+                            <a class="navbar-brand" href="/">
+                                <span class="fw-bold text-secondary">
+                                    <img src="C:\Users\aubin\OneDrive\Training Material\Harvard University - CS50\My_Portfolio\homepage\images/logo.png" width="200" alt="AubinBakana Logo">
+                                </span>
+                            </a>       
+                            <!-- Navbar toggle button for mobile-->                             
+                            <button class="navbar-toggler" 
+                            type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#navbarmenu" 
+                            aria-controls="main-nav" 
+                            aria-expanded="false" 
+                            aria-label="Toggle navigation">
+        
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <!-- Navigation items - Menu -->
+                            <div 
+                                class="collapse navbar-collapse bg-white align-center justify-content-end text-center" 
+                                id="navbarmenu" >
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link active" aria-current="page">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="trivia.html" class="nav-link">TRIVIA</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="surfaceStudio.html" class="nav-link">SURFACE STUDIO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="radioShack.html" class="nav-link">RADIOSHACK</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#learn" class="nav-link">What You Will learn</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#questions" class="nav-link">Questions</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#instructors" class="nav-link">Instructors</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+                <main>
+                    <!-- Showcase -->
+                    <section class="p-lg-0 pt-lg-1 text-center text-sm-start p-3 mt-4 mb-2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card bg-whit">
+                                        <div class="card-body text-center">
+                                            <img src="img/ProfilePic.jpg" alt="" class="rounded-circle mb-3" width="200">
+                                            <h3 class="card-title mb-3">Aubin Bakana</h3>
+                                            <p class="card-text">Havard University's CS50 certified(Computer Science) | Microsoft Certified Azure Solutions Architect Expert | Certified Dataiku ML Practitioner | Certified Neo4J Developer | MongoDB Associate</p>
+                                            <a href="#">
+                                                <i class="bi bi-linkedin text-dark mx-1"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="bi bi-instagram text-dark mx-1"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="bi bi-twitter text-dark mx-1"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="bi bi-facebook text-dark mx-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> <!-- end col-->
+                                <div class="col">
+                                    <div class="d-md-flex align-items-center justify-content-between m-3">
+                                        <div class="m-1">
+                                            <h1>Aubin Bakana<br><span class="text-warning">PORTFOLIO</span></h1>
+                                            <p class="small">A birdview of my life achievement so far...</p>
+                                            <p class="display-6 my-4 text-primary" id="wellcome"><br>Welcome to my site!</p>
+                                            <!-- <h5 class="small text-primary mt-5" id="deadline">Please click below to learn more about me</h5> -->
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <br>
+        
+                                            <!-- Modal -->
+                                            <!-- Button trigger - modal -->
+                                            <button class="btn btn-outline-primary btn-sm"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#enroll"
+                                            type="button">Personal Story</button> 
+        
+                                            <!--Modal Header -->
+                                            <div class="modal modal-fullscreen-md-down fade p-5 m-5" id="enroll"  aria-labelledby="enrollLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h1 class="modal-title fs-5" id="enrollLabel">Personal Story</h1>
+                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <!--Modal Body -->
+                                                        <div class="modal-body ">
+                                                            <p>Born in the Republic of Congo where I earned a degree in Physics, I have been a British resident for 23 years now. </p>
+                                                            <p>After dropping out of BSc Computing at Leeds University, School of Computing, due to financial hurdles, I was able to earn my first computing qualification a few years later after successful completion of an intensive Microsoft/City & Guild partnership program in PC Engeneering and Network Technology.</p>
+                                                            <p>Despite my computing obsession, I had an ambition for showbusiness, which was my main passion until recent years. Up until recently, I worked as a self employed most of the time, balancing between my ambition in show business and IT. In 2018, I decided to take on IT in full. And there begun a never-ending journey of self development. Ever since, I have continuously taken on further education and business development courses in computing.</p>
+                                                            <p>Intially, I began a journey with CISCO to follow on my networking background; however, I quickly gravitated to cloud computing as I anticipated the future of computing is driven towards cloud computing. So I went on studying Azure, setting up as a self employed to help me complete my qualifications.</p>
+                                                            <p>The journey with Azure was particularly awkward for me as, when I first got into it, I had no programming experience. Essentially, I had to learn programming on the go to complete some of the tasks required for my journey with Azure. Part of the courses that I took included courses from Harvard University YouTube channel and more. </p>
+                                                            <p>Within 5 years I was able to evolve from fundamentals to expert. After I certifed as a Microsoft Azure Solutions Architect, I took on further courses in data engineering, security, etc. It became very clear to me that I needed to gain recognition and experience with computer science if I had to succeed as a computer expert.</p>
+                                                            <p>At this point, I decided to do some research; and this is how I discovered CS50. I have worked tireless on each and every assignment to help me complete the program as soon as possible, as effectively as I can, and here we are.</p>
+                                                            <p>So far what I have come to learn at Harvard University has overwhelmingly surpassed my expectation, by far, essentially giving me not just all the code experience I sought, but also the intellectual challenges I needed at this stage of my career; and most importantly, with CS50 I have learned to think not just like a programmer, but like a computer scientist.</p>
+        
+                                                        </div>
+                                                        <!-- Modal Footer -->
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- end Modal-->
+        
+                                        </div> <!-- end m3-->
+                                    </div><!-- end flex box-->
+                                </div>
+                                <div class="col-md-3 col-sm-auto">
+                                    <div class="row">
+                                        <div class="d-md-flex align-items-center justify-content-evenly">
+                                            <div class="row border-start mt-3 mb-3">
+                                                <!-- Table Of Content -->
+                                                <p class="highlight h5">Table Of Content</p>
+                                                <a class="highlight" href="#intro" style="text-decoration: none; color: black;">- Introduction</a>
+                                                <a class="highlight" href="#featuredProjects" style="text-decoration: none; color: black;">- 4 featured Projects - Summary </a>
+                                                <a class="highlight" href="#expertise" style="text-decoration: none; color: black;">- Areas Of Expertise</a>
+                                                <a class="highlight" href="#fundamentals" style="text-decoration: none; color: black;">- Learn Fundamentals</a>
+                                                <a class="highlight" href="#learCS" style="text-decoration: none; color: black;">- Learn Computer Science</a>
+                                                <a class="highlight" href="#faq" style="text-decoration: none; color: black;">- Frequently Asked Questions</a>
+                                                <a class="highlight" href="#contact" style="text-decoration: none; color: black;">- Contact Us</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="intro">
+                        <div class="container text-start text-black">
+                            <p class="mb-3">
+                                <h1 class="h1">Introduction</h1>
+                                I took on CS50 in part because of my passion for learning, because of my passion for IT, but also because, as a computer expert coming from a networking, PC engineering, database, and cloud background, I determined that instead of learning a program here and there as and when needed as I did previously, it would benefit to understand the science of computing. I am destined to work side by side with developers. Areas of expertise detailed <a href="#expertise">below</a>. 
+                            </p>       
+                            <p>
+                                As part of CS50 at Harvard University, over the course of 6 months I successfully solved 9 labs, 9 problems sets, and developed a final project, which ultimately earned me a completion certificate; I scored maximum marks on all, as evidenced here: <a href="http://">My SC50 Score</a>.
+                                The on-campus version of CS50 is Harvard's largest program. To complete this program, in parrallel, I took additional courses namely CS50W, CS50 Python, advanced Git/GitHub, and more. Programs learned at Harvard include C, Python, HTML, CSS, JavaScript, SQL, Flask & more. This page is adaptation of a website I designed as part of CS50 assignment; a work I've produced entirely.                         
+                            </p>                               
+                        </div>
+                    </section>
+
+                    <!-- Summary for featured 4 Project -->
+                    <section class="p-1" id="featuredProjects">
+                        <div class="container">
+                            <div>
+                                <h2 class="text-center text-black">
+                                    4 Featured Projects: Computer Science.
+                                </h2>
+                                <p class="lead text-center text-black mb-5">
+                                    Below, a summary of 4 of the projects linked to this page. 
+                                </p>
+                            </div>
+                            <div class="row text-center justify-content-around g-1">
+                                <div class="col-md">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <div class="h1 mb-3">
+                                                <i class="bi bi-laptop"></i>
+                                            </div>
+                                            <h3 class="card-title mb-3">
+                                                TradeWiser
+                                            </h3>
+                                            <p class="card-text">
+                                                A Flask WebApp submitted as final Harvard University CS50's assignment.<br>
+                                                The Application is designed to help manage account holder's trading and financial assets using live API data.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div> <!--End col-->
+                                <div class="col-md">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <div class="h1 mb-3">
+                                                <i class="bi bi-person-square"></i>
+                                            </div>
+                                            <h3 class="card-title mb-3">
+                                                Trivia Test
+                                            </h3>
+                                            <p class="card-text">
+                                                Trivia is a Web application that simulates a simple 2-question test and checks answers using JavaScript. User's input is checked against an existing set of answers for correctness. An assignment at Harvard University CS50.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div> <!--End col-->
+                                <div class="col-md">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <div class="h1 mb-3">
+                                                <i class="bi bi-pc "></i>
+                                            </div>
+                                            <h3 class="card-title mb-3">
+                                                Surface Studio
+                                            </h3>
+                                            <p class="card-text">
+                                                A dummy web page designed using Microsoft's content. As a former Microsoft Brand Ambassador, I couldn't resit the temptation. A part of an assignment at Harvard University CS50.
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div> <!--End col-->
+                                <div class="col-md">
+                                    <div class="card bg-light">
+                                        <div class="card-body text-center">
+                                            <div class="h1 mb-3">
+                                                <i class="bi bi-laptop"></i>
+                                            </div>
+                                            <h3 class="card-title mb-3">
+                                                Radio Shack
+                                            </h3>
+                                            <p class="card-text">
+                                                A mordernisation for an older version of the said company's website. Original version made in 1996. The task here was to redesign the website using the media used at the time. A Harvard univertiy's CS50 lab. 
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div> <!--End col-->
+                            </div><!--End row-->
+                        </div>
+                    </section>
+        
+                    <!-- Areas Of Expertise -->
+                    <section class="p-5" id="expertise">
+                        <div class="container">
+                            <div>
+                                <h2 class="text-center text-black">
+                                    Areas Of Expertise
+                                </h2>
+                                <p class="lead text-center text-black mb-5">
+                                    4 areas in which I have gained experience, expertise & industry standard certificates issued by corresponding official corporations.
+                                </p>
+                            </div>
+                            <div class="row g-1">
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card bg-light mb-3">
+                                        <div class="card-body text-center">
+                                            <img src="img/azure.png" alt="Microsoft Azure Logo" width="250">
+                                            <h3 class="card-title mb-3">Certified Microsoft Azure Solutions Architect Expert</h3>
+                                            <p class="card-text">
+                                                Advanced experience and knowledge of IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platforms, and governance. 
+                                                Able to manage how decisions in each area affect overall solution.
+                                            </p>
+                                            <button class="btn btn-outline-primary btn-sm mb-3" type="button">Learn More</button><br>
+                                            <a href="#">
+                                                <i class="bi bi-linkedin text-dark mx-1"></i>
+                                                <i class="bi bi-instagram text-dark mx-1"></i>
+                                                <i class="bi bi-twitter text-dark mx-1"></i>
+                                                <i class="bi bi-facebook text-dark mx-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> <!-- end col-->
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card bg-light mb-3">
+                                        <div class="card-body text-center">
+                                            <img class="mt-5 mb-3" src="img/neo4j.png" alt="Microsoft Azure Logo" width="160">
+                                            <h3 class="card-title mt-4 mb-3">Neo4J Certified Professional</h3>
+                                            <p class="card-text">
+                                                Proven and demonstrable experience, knowledge and expertise in design of Neo4j property graph model, cypher queries, graph data modeling, importing data, and integration of Neo4J database in application development concept.
+                                            </p>
+                                            <button class="btn btn-outline-primary btn-sm mb-3" type="button">Learn More</button><br>
+                                            <a href="#">
+                                                <i class="bi bi-linkedin text-dark mx-1"></i>
+                                                <i class="bi bi-instagram text-dark mx-1"></i>
+                                                <i class="bi bi-twitter text-dark mx-1"></i>
+                                                <i class="bi bi-facebook text-dark mx-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> <!-- end col-->
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card bg-light mb-3">
+                                        <div class="card-body text-center">
+                                            <img src="img/mongoDB.png" alt="Microsoft Azure Logo" width="151">
+                                            <h3 class="card-title mb-3">MongoDB Associate course completion</h3>
+                                            <p class="card-text">
+                                                Proven competence with with Atlas, Document Model, Connecting to a MongoDB Database, MongoDB CRUD: Insert and Find, MongoDB CRUD: Replace and Delete, MongoDB CRUD: Reading Query Results, MongoDB Aggregation, MongoDB Indexes, MongoDB Atlas Search, MongoDB Data Modeling, MongoDB Transactions
+                                            </p>
+                                            <button class="btn btn-outline-primary btn-sm mb-3" type="button">Learn More</button><br>
+                                            <a href="#">
+                                                <i class="bi bi-linkedin text-dark mx-1"></i>
+                                                <i class="bi bi-instagram text-dark mx-1"></i>
+                                                <i class="bi bi-twitter text-dark mx-1"></i>
+                                                <i class="bi bi-facebook text-dark mx-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> <!-- end col-->
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="card bg-light mb-3">
+                                        <div class="card-body text-center">
+                                            <img class="m-3" src="img/dataiku.png" alt="Microsoft Azure Logo" width="210">
+                                            <h3 class="card-title mb-3">Dataiku Certified Machine Learning(ML) Practitioner</h3>
+                                            <p class="card-text">
+                                                Able to build machine learning models with Dataiku's visual ML tool in order to
+                                                Create, evaluate and tune ML Models with Dataiku's Visual ML tool, 
+                                                Deploy models from Lab to Flow & apply it,
+                                                Understand and explain models with Responsible AI tools,
+                                                Analyze data with Interactive Stats tool.
+                                            </p>
+                                            <button class="btn btn-outline-primary btn-sm mb-3" type="button">Learn More</button><br>
+                                            <a href="#">
+                                                <i class="bi bi-linkedin text-dark mx-1"></i>
+                                                <i class="bi bi-instagram text-dark mx-1"></i>
+                                                <i class="bi bi-twitter text-dark mx-1"></i>
+                                                <i class="bi bi-facebook text-dark mx-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> <!-- end col-->
+                            </div>
+                        </div>
+                    </section>
+        
+                    <!-- Learning & Development -->
+                    <section class="p-5" id="fundamentals">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-md">
+                                    <img alt="" class="img-fluid" src="img/peopleRpeople.jpg">
+                                </div>
+                                <div class="col-md p-5">
+                                    <h2>Learn The Fundamental</h2>
+                                    <p class="lead">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque corporis veritatis fuga earum quisquam assumenda rerum dolor ex enim, tempora explicabo cupiditate, hic eos sapiente sunt dolorum magnam recusandae! Culpa.
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias quia facere distinctio aliquam eius consequatur nesciunt aut. Quos magnam itaque necessitatibus eius sit aliquam facere, atque aspernatur libero eos minima!
+                                    </p>
+                                    <a href="#" class="btn btn-light mt-3">
+                                        <i class="bi bi-chevron-right"></i>Read More...
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+        
+                    <!-- Learning Option 2 -->
+                    <section class="bg-white shadow-sm p-5" id="learnCS">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-md p-5">
+                                    <h2>Learn Computer Science</h2>
+                                    <p class="lead">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque corporis veritatis fuga earum quisquam assumenda rerum dolor ex enim, tempora explicabo cupiditate, hic eos sapiente sunt dolorum magnam recusandae! Culpa.
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias quia facere distinctio aliquam eius consequatur nesciunt aut. Quos magnam itaque necessitatibus eius sit aliquam facere, atque aspernatur libero eos minima!
+                                    </p>
+                                    <a href="#" class="btn btn-light mt-3">
+                                        <i class="bi bi-chevron-right"></i>Read More...
+                                    </a>
+                                </div> <!-- End col -->
+                                <div class="col-md">
+                                    <img alt="" class="img-fluid" src="img/react.svg" width="200" >
+                                </div> <!-- End col -->
+                            </div>
+                        </div>
+                    </section>
+        
+                    <!-- FAQ (Accordion) -->
+                    <section class="p-5" id="faq">
+                        <div class="container">
+                            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+                            <div class="accordion accordion-flush" id="questions">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one" aria-expanded="false" aria-controls="question-one">
+                                      Accordion Item #1
+                                    </button> <!-- end q1 -->
+                                  </h2>
+                                  <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two" aria-expanded="false" aria-controls="question-two">
+                                      Accordion Item #2
+                                    </button> <!-- end q2 -->
+                                  </h2>
+                                  <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three" aria-expanded="false" aria-controls="question-three">
+                                      Accordion Item #3
+                                    </button> <!-- end q2 -->
+                                  </h2>
+                                  <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </section>
+        
+                    <!-- Contact -->
+                    <section class="p-5" id="contact">
+                        <div class="container">
+                            <div class="row g-4">
+                                <div class="col-md">
+                                    <img class="img-fluid" width="400" src="img/pexels-fauxels-3184325.jpg" alt="">
+                                </div> <!-- end col-->
+                                <div class="col-md">
+                                    <h2 class="h2 mb-4 ps-3">Contact</h2>
+                                    <ul class="list-group list-group-flush lead">
+                                        <li class="list-group-item">
+                                            <span class="fw-bold">Address:</span>
+                                            Flat 2 20A John Street. BD1 3JU
+                                        </li>
+                                        <li class="list-group-item">
+                                            <span class="fw-bold">Tel</span> <br>
+                                            (m): (+44) 7713 60 59 59 <br>
+                                            (m): (+44) 7526 38 999 2 
+                                        </li>
+                                                                        <li class="list-group-item">
+                                            <span class="fw-bold">Email</span>
+                                            aubinbakana@hotmail.com
+                                        </li>
+                                    </ul>
+        
+                                </div> <!-- end col-->
+                            </div>
+                        </div>
+                    </section>
+        
+                </main>
+                <footer class="p-3 bg-primary footer text-center text-white">
+                    <div class="container small">
+                        Copyright &copy; 2023 Aubin Bakana
+                        <a href="#">
+                            <i class="bi bi-linkedin text-dark mx-1"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-instagram text-dark mx-1"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-twitter text-dark mx-1"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-facebook text-dark mx-1"></i>
+                        </a>
+                    </div>
+                    <a href="" class="position-absolute bottom-0 end-0 p-5">
+                        <span  class="small p-2">Jump Back To Top</span>
+                        <b class="bi bi-arrow-up-circle h1"></b>
+                    </a>                  
+                </footer>
+            </body>
+        </div>
+    </div>
+</html>

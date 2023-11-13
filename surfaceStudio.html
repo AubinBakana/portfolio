@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Surface Studio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <script src="script.js"></script>        
+    </head>
+    <body>
+        <header>
+            <!-- Navigation bar-->
+            <nav class="fixed-top bg-white navbar navbar-expand-md navbar-light shadow-sm">
+                <div class="container-xxl">
+                    <a href="/" class="navbar-brand">
+                        <span class="fw-bold text-secondary">
+                            <img src="C:\Users\aubin\OneDrive\Training Material\Harvard University - CS50\My_Portfolio\homepage\images/logo.png" width="200" alt="AubinBakana Logo">
+                        </span>
+                    </a>
+                    <!-- Navbar toggle button for mobile-->
+                    <button 
+                        class="navbar-toggler" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#main-nav" 
+                        aria-controls="main-nav" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Navigation items - Menu -->
+                    <div 
+                        class="collapse navbar-collapse justify-content-end align-center" 
+                        id="main-nav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a aria-current="page" href="#" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="trivia.html" class="nav-link">JavaScript Test</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="radioShack.html" class="nav-link">RadioShack</a>
+                            <li class="nav-item ms-2 d-none d-md-inline">
+                                <a href="#princing" class="nav-link">Pricing</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#contact" class="nav-link">Contact Us</a>
+                            </li>
+                            <li class="nav-item ms-2 d-none d-md-inline">
+                                <a href="#pricing" class="btn btn-outline-primary p-1">Buy Now</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- Main image & intro text -->
+            <div class="text-center display-1 mt-5">CS50 - Computer Science</div>
+            <section id="intro">
+                <div class="container-lg">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-5 text-center text-md-start">
+                            <h1 class="display-2">
+                                Microsoft Surface Book
+                                <span class="display-5 text-muted">Standout design, fluid productivity</span>
+                            </h1>
+                            <p class="lead my-4 text-muted">
+                                Get it as soon as 26 September when you choose express delivery <br>
+                                Free 1-2 business day delivery. Free returns. Next day delivery available for £10.00. <br>
+                                Image shown is for illustration purposes only. Please check technical specifications for details on the keyboard you are ordering. <br>
+                            </p>
+                            <a href="#pricing" class="btn btn-outline-primary btn-large">Buy Now</a><br>
+                        </div>
+                        <div class="col-md-5 text-center p-3 image-fuild">
+                            <img class="mt-sm-1" src="assets/microsoft-surface-studio-und-surface-dial-810x456.jpg" alt="an imag of a suface book with accessories" width="400">
+                            <img class="d-none d-md-block" src="assets/surface-studio.jpg" alt="surface pro">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Pricing Plans -->
+            <section class="bg-light mt-5" id="pricing">
+                <div class="container-lg">
+                    <div class="text-center">
+                        <h2>Pricing Plans</h2>
+                        <p class="lead text-muted">Choose a pricing plan that meets your requirements.</p>
+                        <div class="row my-5  justify-content-around justify-content-sm-center g-0">
+                            <div class="col-8 col-lg-4 col-xl-3">
+                                <div class="card border-0">
+                                    <div class="card-body text-center py-4">
+                                        <h4 class="card-title">28” Surface Studio</h4>
+                                        <p class="lead card-subtitle">Touch display with Zero Gravity Hinge</p>
+                                        <p class="display-5 my-4 text-primary fw-bold">£5199.99</p>
+                                        <p class="card-text mx-5 text-muted.d-none d-lg-block">
+                                            Strikingly large 28” PixelSense™ touch display with signature 3:2 aspect ratio that gives you 13% more screen real estate. <br>
+                                            With the Zero Gravity Hinge you can do it all at the perfect angle. <br>
+                                            Complete your experience with Surface Pen and keyboard and mouse.Footnote2 <br>                                            </p>
+                                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div> <!--- End column-->
+                            <div class="col-9 col-lg-4">
+                                <div class="card border-2 border-warning">
+                                    <div class="card-hearder text-center text-primary">28” PixelSense™</div>
+                                    <div class="card-body text-center py-4">
+                                        <h4 class="card-title">28” Surface Studio</h4>
+                                        <p class="lead card-subtitle">Versatile all-in-one designed for Windows 11</p>
+                                        <p class="display-5 my-4 text-primary fw-bold">£8499.99</p>
+                                        <p class="card-text mx-5 text-muted.d-none d-lg-block">
+                                            28” PixelSense™ touchscreen with a wider spectrum of deeper, more accurate colours and better gradient.<br><br>
+                                            Spectacular picture quality with Dolby Vision®Footnote4.<br><br>
+                                            Elevate streaming with cinematic sound empowered by Dolby® AtmosFootnote5<br><br>
+                                            A variety of ports, including USB-C® with Thunderbolt™ 4.<br>
+                                            </p>
+                                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div> <!--- End column-->
+                            <div class="col-8 col-lg-4 col-xl-3">
+                                <div class="card border-0">
+                                    <div class="card-body text-center py-4">
+                                        <h4 class="card-title">28” Surface Studio</h4>
+                                        <p class="lead card-subtitle">Serious productivity and security</p>
+                                        <p class="display-5 my-4 text-primary fw-bold">£6199.99</p>
+                                        <p class="card-text mx-5 text-muted.d-none d-lg-block">
+                                            Make every day easier with Windows 11 optimised for touchscreen, featuring a clean, new design and smart features that anticipate your needs. <br><br>
+                                            Get seriously productive with Microsoft 365Footnote6 and integrated pen support. <br><br>
+                                            Protect what’s yours with comprehensive Windows 11 security and password-free Windows Hello sign-in. <br><br>
+                                        <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div> <!--- End column-->
+                        </div> <!--- End Row-->
+                    </div>
+                </div>
+            </section>
+            <!-- Topics at a Glance -->
+            <section id="topics">
+                <div class="container-md">
+                    <div class="text-center">
+                        <h2>Surface Book Dial</h2>
+                        <p class="lead text-muted">
+                            Use Surface Dial with apps
+                        </p>
+                    </div>
+                    <div class="row my-5 g-5">
+                        <div class="col-6 col-lg-4 justify-content-around">
+                            <img class="justify-content-md-center" src="assets/dial-surfaceBook.png" alt="">
+                        </div>
+                        <!-- Accordion -->
+                        <div class="col-lg-6">
+                            <div class="accordion" id="chapters-according">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading-1">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+                                            Learn More About Surface Book Dial
+                                        </button>
+                                    </h2>
+                                    <div id="chapter-1" class="accordion-collapse collapse" aria-labelledby="heading-1" data-bs-parent="#chapters">
+                                        <div class="accordion-body"><br>
+                                            Use it on the screen
+                                            Whether it's placed on your desk or directly on the screen, Surface Dial helps you create in a way that’s natural, ergonomic, and keeps you in the flow. The way the options appear on the screen will look a little different depending on whether your Surface Dial is on your desk or on the display, but they work in the same way. <br><br>
+                                            For example, if you have a Surface Studio, put it in Studio Mode (flat down), then place Surface Dial on the screen. Press it down to see the tools and rotate it to select the tool you want. <br><br>
+                                            Use Surface Dial with apps <br>
+                                            Surface Dial works with apps that come with Windows 10, like Paint 3D, Groove Music, Microsoft Edge, and Maps. It also works with professional-grade software, including Adobe Photoshop and Adobe Illustrator (both sold separately).<br><br>
+                                            To find more apps for Surface Dial in Microsoft Store, see Apps for Surface Dial in Microsoft Store.<br><br>
+                                            Here are just a few things you can do.<br><br>
+                                            Volume <br>
+                                            Rotate left to turn it down or right to turn it up. Click to mute and unmute.<br><br>
+                                            Scroll<br>
+                                            Rotate left to scroll up, or right to scroll down. <br><br>
+                                            Zoom<br>
+                                            In Adobe Photoshop and Adobe Illustrator, rotate left to zoom out, or right to zoom in. Click to fit to screen.<br><br>
+                                            Undo<br>
+                                            Rotate left to step through the undo history, or right to step through the redo history. Click to undo a single action.<br><br>
+                                            Brightness<br>
+                                            Rotate left to make the display less bright, or right to make it brighter <br><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- End Item 1-->
+
+                            <div class="accordion" id="chapters">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading-2">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="true" aria-controls="chapter-2">
+                                            Set UP
+                                        </button>
+                                    </h2>
+                                    <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
+                                        <div class="accordion-body"><br>
+                                            Set it up <br>
+                                            Remove the protective film from your Surface Dial. <br><br>
+
+                                            Pull the bottom off your Surface Dial to open the battery compartment. Make sure there are two AAA batteries inside. <br>
+
+                                            Remove the battery tab from the bottom of your Surface Dial. <br>
+
+                                            Press and hold the Pair button next to the batteries for 5-7 seconds, then release it. The light will flash white when it’s in pairing mode. <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- End Item 2-->
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer style="text-align: center;">
+            <small>This is not a real page from Microsoft. The page was designed only as a computer science project at Harvard University by Aubin Bakana</small><br>
+            <small class="fst-italic text-center">No copyright infringement intended</small>
+        </footer>
+    </body>
+</html>

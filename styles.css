@@ -1,0 +1,73 @@
+/* Wrapping the body to fix footer to bottom */
+.footer {
+  background-color: rgb(240, 254, 240);
+  top: 3;
+  bottom: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+padding-bottom: 0;    /* Footer height */
+}
+
+/* Insert space before the footer */
+body::after {
+  display: block;
+  content: '';
+  height: 80px
+}
+
+/* Before body. A gap for the nav */
+body::before {
+    display: block;
+    content: '';
+    height: 70px
+}
+
+/* This ensures that when clicked on a link, the section is positioned neatly*/
+html {
+    scroll-padding-top: 6rem;
+  }
+
+/* nav {
+  height: 6rem;
+  position: sticky;
+  top: 0;
+} */
+
+/* Hovering on a listed item highlights it.*/
+li:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+a.highlight:hover {
+  background-color: rgb(242, 242, 242);
+}
+
+/* List items of this class have no bullets */
+ul.no-bullets {
+    list-style-type: none;
+    padding: 3;
+    margin: 3;
+  }
+
+
+/* Creates a hover effect on the a section */
+section:hover {
+    background-color: rgb(253, 253, 253);
+}
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
